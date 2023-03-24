@@ -4,7 +4,7 @@ metadata:
   namespace: argocd
   name: backend
   annotations:
-    argocd-image-updater.argoproj.io/image-list: backend=192.168.44.44:8082/docker-registry/backend
+    argocd-image-updater.argoproj.io/image-list: backend=192.168.44.44:8082/docker-local/backend
     argocd-image-updater.argoproj.io/backend.update-strategy: latest
     argocd-image-updater.argoproj.io/write-back-method: argocd
 spec:

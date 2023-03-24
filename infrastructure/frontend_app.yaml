@@ -4,7 +4,7 @@ metadata:
   namespace: argocd
   name: frontend
   annotations:
-    argocd-image-updater.argoproj.io/image-list: fronted=192.168.44.44:8082/docker-registry/frontend
+    argocd-image-updater.argoproj.io/image-list: fronted=192.168.44.44:8082/docker-local/frontend
     argocd-image-updater.argoproj.io/backend.update-strategy: latest
     argocd-image-updater.argoproj.io/write-back-method: argocd
 spec:
